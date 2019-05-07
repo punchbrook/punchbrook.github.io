@@ -77,8 +77,8 @@ h1 {
 
 
 h2 {
-	/*font-size: 3em;
-	text-transform: uppercase;
+	font-size: 2.5em;
+	/*text-transform: uppercase;
 	margin-top: 2em;*/
 	font-weight: 800;
 	}
@@ -99,6 +99,13 @@ h2:first-child {
 blockquote {
 	margin: 0.5em;
 }
+
+div.press {
+	clear: both; 
+	margin-top: 2em;
+	}
+	
+
 
 /************************
 /    NAVIGATION         /
@@ -135,17 +142,18 @@ nav li {
 
 a {
 	text-decoration: none;
-	color: #f33;
+	color: #393;
 	/*color: #25e9ee;*/
 }
 
 a:hover {
-	color: #6cc;
+	color: #3c3;
 }
 
 header a {
 	color: #ccc;
 }
+
 
 header a:hover {
 	color: #6ff;
@@ -229,7 +237,7 @@ p.caption {
 		margin-bottom: 2em;
 		}
 	
-	section h1, h2, h3, p {
+	section h1, section h2, section h3, section p {
 		margin-left: 35%;
 		}
 		
@@ -252,7 +260,7 @@ p.caption {
 		margin-bottom: 3em;
 		}
 	
-	section h1, h2, h3, p {
+	section h1, section h2, section h3, section p {
 		margin-left: 35%;
 		}
 		
